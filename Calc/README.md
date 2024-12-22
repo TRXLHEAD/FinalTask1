@@ -11,7 +11,7 @@
 > Откройте терминал, напишите: go run ./cmd/main.go
   Если появилось сообщение: "Сервер успешно запущен", значит сервер работает корректно
 > После запуска сервера используйте второй терминал: Alt + Shift + F5 (Если не открывается, можно нажать на '+' в терминале)
-> Введите команду: Invoke-WebRequest -Method 'POST' -Uri 'http://localhost:8080/api/v1/calculate' -ContentType 'application/json' - Body '{"expression":"2+2*2"}' | Select-Object -Expand Content
+> Введите команду: Invoke-WebRequest -Method 'POST' -Uri 'http://localhost:8080/api/v1/calculate' -ContentType 'application/json' -Body '{"expression":"2+2*2"}' | Select-Object -Expand Content
 > Готово
 
 # Пример использования:
